@@ -1,0 +1,22 @@
+state={
+	id=444
+	name= "STATE_444"
+	manpower = 480248
+
+	state_category = rural
+
+	history={
+		owner = W04
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		1239 1668 4764 7332 7405 10290 
+	}
+}

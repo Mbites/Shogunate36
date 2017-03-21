@@ -1,0 +1,31 @@
+state={
+	id=557
+	name= "STATE_557"
+	manpower = 365384
+
+	resources={
+		aluminium = 2
+		rubber = 1
+	}
+	state_category = rural
+
+	history={
+		owner = W24
+		victory_points = {
+			8193 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12975 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		2192 3109 6008 8193 12975 
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=479
+	name= "STATE_479"
+	manpower = 2328640
+
+	resources={
+		tungsten = 5
+	}
+	state_category = rural
+
+	history={
+		owner = W14
+		victory_points = {
+			1048 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1048 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = W14
+	}
+
+	provinces={
+		809 875 879 1048 1178 3810 3871 3930 3940 4080 6744 7098 7183 9815 9891 10094 11749 12070 
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=398
+	name= "STATE_398"
+	manpower = 1264280
+
+	state_category = city
+
+	history={
+		owner = W02
+		victory_points = {
+			2152 9
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = W02
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+}

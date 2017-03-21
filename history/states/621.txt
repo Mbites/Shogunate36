@@ -1,0 +1,26 @@
+state={
+	id=621
+	name= "STATE_621"
+	manpower = 2097192
+
+	state_category = city
+
+	history={
+		owner = W33
+		victory_points = {
+			4709 9
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+		}
+		add_core_of = W33
+		add_core_of = X27
+	}
+
+	provinces={
+		1698 1703 1708 1766 1783 1838 1844 1943 1970 2015 2074 4682 4704 4709 4770 4828 4843 4947 4973 5016 5087 5736 7702 7732 7790 7792 7850 7866 7949 8042 8086 8112 10315 10545 10614 10674 10691 10839 10885 10911 12119 12524 12526 12590 12598 12601 12656 12671 12737 12864 
+	}
+}

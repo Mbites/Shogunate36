@@ -1,0 +1,27 @@
+state={
+	id=353
+	name= "STATE_353"
+	manpower = 113968
+
+	resources={
+		aluminium = 84
+	}
+	state_category = rural
+
+	history={
+		owner = X91
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			10906 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1928 10906 12828 
+	}
+}

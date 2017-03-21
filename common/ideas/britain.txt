@@ -1,0 +1,29 @@
+ideas = {
+	
+	country = {
+	
+		declining_imperialism = {
+			
+			allowed = {
+				original_tag = X21
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			picture = FRA_matignon_agreements
+			
+			removal_cost = -1
+			
+			modifier ={
+			unity_factor = -0.05
+			justify_war_goal_time = 0.25
+			political_power_factor = -0.3
+			
+			}
+
+		}
+		
+	}
+}

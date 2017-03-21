@@ -1,0 +1,28 @@
+state={
+	id=7
+	name= "STATE_7"
+	manpower = 71808
+
+	resources={
+		aluminium = 2
+		oil = 12
+		steel = 2
+		tungsten = 8
+	}
+	state_category = rural
+
+	history={
+		owner = X04
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		1449 2172 5163 5213 7500 8169 10515 10943 12453 13000 
+	}
+}

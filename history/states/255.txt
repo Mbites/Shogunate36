@@ -1,0 +1,28 @@
+state={
+	id=255
+	name= "STATE_255"
+	manpower = 2778304
+
+	state_category = large_town
+
+	history={
+		owner = X57
+		victory_points = {
+			9907 4
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			6875 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = X57
+	}
+
+	provinces={
+		910 1616 6875 9750 9879 9907 11833 11889 
+	}
+}

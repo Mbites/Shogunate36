@@ -1,0 +1,29 @@
+state={
+	id=201
+	name= "STATE_201"
+	manpower = 1667736
+
+	resources={
+		aluminium = 1
+		rubber = 0
+		steel = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = X45
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			7972 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		2100 7972 12834 12858 
+	}
+}

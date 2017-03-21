@@ -1,0 +1,25 @@
+state={
+	id=49
+	name= "STATE_49"
+	manpower = 1548936
+
+	state_category = pastoral
+
+	history={
+		owner = X27
+		victory_points = {
+			10062 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X27
+	}
+
+	provinces={
+		10062 
+	}
+}

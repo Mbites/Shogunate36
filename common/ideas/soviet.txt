@@ -1,0 +1,52 @@
+ideas = {
+	
+	country = {
+	
+		vladivostok_trauma = {
+			
+			allowed = {
+				original_tag = W04
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = the_war_to_end_all_wars
+			
+			removal_cost = -1
+			
+			modifier ={
+			unity_factor = -0.50
+			conscription = -0.075
+			justify_war_goal_time = 0.50
+			ai_focus_aggressive_factor = -0.75
+			
+			}
+
+		}
+		
+		Sleeping_Bear = {
+			
+			allowed = {
+				original_tag = W04
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = idea_war_economy
+			
+			removal_cost = -1
+			
+			modifier ={
+			production_speed_infrastructure_factor = 0.3
+			consumer_goods_factor = 0.3
+			conversion_cost_civ_to_mil_factor= -0.2
+			}
+
+		}
+		
+	}
+}

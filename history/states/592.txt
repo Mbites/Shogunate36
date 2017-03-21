@@ -1,0 +1,31 @@
+state={
+	id=592
+	name= "STATE_592"
+	manpower = 1556488
+
+	resources={
+		aluminium = 44
+		steel = 136
+		tungsten = 161
+	}
+	state_category = rural
+
+	history={
+		owner = W28
+		victory_points = {
+			10422 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W28
+		add_core_of = X81
+	}
+
+	provinces={
+		1663 1740 1756 1862 4521 4607 4668 4736 4742 4799 4816 4865 7756 7764 7818 7827 7879 10422 10582 10591 10651 10662 12134 12399 12425 12573 12699 
+	}
+}

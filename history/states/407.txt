@@ -1,0 +1,25 @@
+state={
+	id=407
+	name= "STATE_407"
+	manpower = 4861248
+
+	state_category = large_town
+
+	history={
+		owner = W04
+		victory_points = {
+			223 4
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		223 233 236 277 289 323 342 358 406 3210 3219 3278 3297 3331 3378 6220 6233 6243 6249 6292 6326 6344 6354 6371 9241 9247 9253 9288 9289 9323 9341 9342 9351 9371 9396 11220 11230 11241 11271 11322 11336 11342 11355 11383 
+	}
+}

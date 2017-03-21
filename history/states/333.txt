@@ -1,0 +1,29 @@
+state={
+	id=333
+	name= "STATE_333"
+	manpower = 3966456
+
+	resources={
+		rubber = 0
+		steel = 0
+	}
+	state_category = town
+
+	history={
+		owner = X81
+		victory_points = {
+			2011 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X81
+	}
+
+	provinces={
+		2008 2011 2083 4956 10853 12804 
+	}
+}

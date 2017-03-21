@@ -1,0 +1,32 @@
+state={
+	id=192
+	name= "STATE_192"
+	manpower = 1596376
+
+	resources={
+		aluminium = 3
+		rubber = 1
+		steel = 0
+	}
+	state_category = pastoral
+
+	history={
+		owner = X45
+		victory_points = {
+			10803 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10803 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		5013 8065 10803 
+	}
+}

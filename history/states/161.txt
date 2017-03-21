@@ -1,0 +1,22 @@
+state={
+	id=161
+	name= "STATE_161"
+	manpower = 264208
+
+	state_category = rural
+
+	history={
+		owner = X41
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X41
+	}
+
+	provinces={
+		7290 13054 13055 13056 13057 13080 
+	}
+}

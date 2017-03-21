@@ -1,0 +1,28 @@
+state={
+	id=148
+	name= "STATE_148"
+	manpower = 113536
+
+	resources={
+		oil = 5
+		rubber = 21
+	}
+	state_category = rural
+
+	history={
+		owner = X41
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			1306 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1306 4338 7358 10199 10240 12186 12228 
+	}
+}

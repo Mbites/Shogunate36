@@ -1,0 +1,23 @@
+state={
+	id=443
+	name= "STATE_443"
+	manpower = 1068968
+
+	state_category = pastoral
+
+	history={
+		owner = W04
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W04
+		add_core_of = X66
+	}
+
+	provinces={
+		1223 1229 1309 1375 1391 1418 1532 1662 1680 1694 4232 4238 4281 4309 4333 4488 4578 4581 4638 4850 7298 7326 7383 7407 7425 7486 7741 7874 10211 10239 10308 10353 10420 10633 12152 12471 12619 
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=280
+	name= "STATE_280"
+	manpower = 18399808
+
+	resources={
+		rubber = 1
+		steel = 2
+	}
+	state_category = megalopolis
+
+	history={
+		owner = X59
+		victory_points = {
+			12467 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X27
+	}
+
+	provinces={
+		1036 4619 7167 7580 7637 9934 9959 10462 12467 
+	}
+}

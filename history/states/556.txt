@@ -1,0 +1,24 @@
+state={
+	id=556
+	name= "STATE_556"
+	manpower = 694536
+
+	resources={
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = W24
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		5196 5224 8205 12911 
+	}
+}

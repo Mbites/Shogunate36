@@ -1,0 +1,52 @@
+ideas = {
+	
+	country = {
+	
+		shogun_oda = {
+			
+			allowed = {
+				original_tag = X59
+			}
+
+			allowed_civil_war = {
+				AND ={
+					has_government = autocratic
+				}
+			}
+			
+			picture = idea_generic_army_asia_1
+			
+			removal_cost = -1
+			
+			traits = { veralteter_taktiker }
+
+		}
+		
+		Japanese_Age = {
+			
+			allowed = {
+				original_tag = X59
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				puppet_cost_factor = -0.3
+				national_unity = 3.0
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}			
+
+		}
+		
+	}
+}	

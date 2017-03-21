@@ -1,0 +1,29 @@
+state={
+	id=35
+	name= "STATE_35"
+	manpower = 1478560
+
+	resources={
+		tungsten = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = X20
+		victory_points = {
+			5200 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W02
+		add_core_of = X20
+	}
+
+	provinces={
+		2111 2142 2147 2181 2204 5115 5148 5200 5208 8140 8175 8189 8224 10959 11010 12939 12951 12959 12987 
+	}
+}

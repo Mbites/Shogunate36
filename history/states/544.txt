@@ -1,0 +1,29 @@
+state={
+	id=544
+	name= "STATE_544"
+	manpower = 1837752
+
+	resources={
+		aluminium = 0
+		rubber = 0
+		steel = 0
+	}
+	state_category = pastoral
+
+	history={
+		owner = W24
+		victory_points = {
+			9137 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		7963 7978 9137 
+	}
+}

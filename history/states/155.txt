@@ -1,0 +1,31 @@
+state={
+	id=155
+	name= "STATE_155"
+	manpower = 525248
+
+	resources={
+		chromium = 119
+	}
+	state_category = rural
+
+	history={
+		owner = X41
+		victory_points = {
+			12148 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12148 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = X41
+	}
+
+	provinces={
+		1263 4231 4268 4286 7264 7302 10160 10188 12132 12148 12159 
+	}
+}

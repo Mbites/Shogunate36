@@ -1,0 +1,32 @@
+state={
+	id=331
+	name= "STATE_331"
+	manpower = 1127712
+
+	resources={
+		oil = 10
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = X81
+		victory_points = {
+			12835 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			5015 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = X81
+	}
+
+	provinces={
+		5015 5021 10769 12835 13088 
+	}
+}

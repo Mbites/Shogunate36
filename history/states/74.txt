@@ -1,0 +1,30 @@
+state={
+	id=74
+	name= "STATE_74"
+	manpower = 490112
+
+	resources={
+		chromium = 4
+		oil = 1
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = X39
+		victory_points = {
+			10739 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X39
+	}
+
+	provinces={
+		2016 8052 8084 10739 10827 10900 
+	}
+}

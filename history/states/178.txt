@@ -1,0 +1,29 @@
+state={
+	id=178
+	name= "STATE_178"
+	manpower = 6563928
+
+	resources={
+		aluminium = 42
+		steel = 54
+	}
+	state_category = large_city
+
+	history={
+		owner = X45
+		victory_points = {
+			3652 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = X45
+	}
+
+	provinces={
+		641 648 667 817 3594 3646 3650 3652 3669 3681 6644 6668 9607 9609 9625 9644 11576 11593 11628 11794 
+	}
+}

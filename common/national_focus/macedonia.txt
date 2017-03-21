@@ -1,0 +1,786 @@
+focus_tree = {
+	id = macedonia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MAC
+		}
+	}
+	default = no
+	focus = {
+		id = mac_buildup
+		icon = GFX_goal_generic_construction
+		cost = 10,00
+		x = 4
+		y = 1
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = balkan_highway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		x = 12
+		y = 1
+		
+	completion_reward = {
+	hidden_effect = {
+				106 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+	}
+ }
+}
+	focus = {
+		id = eliminate_corruption
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10,00
+		x = 20
+		y = 1
+		completion_reward = {
+			add_political_power = 500
+		}
+	}
+	focus = {
+		id = mac_polish_alliance
+		icon = GFX_focus_generic_polish_deal
+		cost = 5,00
+		x = 29
+		y = 6
+		
+		completion_reward = {
+			POL = {
+				country_event = { id = macedonia.1 days = 1 }
+				custom_effect_tooltip = mac_polliance
+			}
+	}
+}
+	focus = {
+		id = mac_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10,00
+		prerequisite = {
+			focus = mac_buildup
+		}
+		x = 1
+		y = 3
+		
+		completion_reward = {
+			106 = {
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+	focus = {
+		id = mac_exp1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 20,00
+		prerequisite = {
+			focus = mac_buildup
+		}
+		x = 4
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = construction_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = construction_tech
+			}
+		}
+	
+	}
+	focus = {
+		id = mac_mil_factory
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = mac_exp1
+		}
+		x = 4
+		y = 5
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Factory_powerhouse
+		icon = GFX_goal_generic_production
+		cost = 10,00
+		prerequisite = {
+			focus = mac_mil_factory
+		}
+		x = 4
+		y = 7
+
+	completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = drosky_mining
+		icon = GFX_goal_generic_construction2
+		cost = 10,00
+		prerequisite = {
+			focus = mac_buildup
+		}
+		x = 7
+		y = 3
+	completion_reward = {
+			106 = {
+				add_resource = {
+					type = steel
+					amount = 20
+				}
+			}
+		}
+	}	
+	focus = {
+		id = mac_roads2
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10,00
+		prerequisite = {
+			focus = balkan_highway
+		}
+		x = 12
+		y = 3
+	completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = serb_roads
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10,00
+		prerequisite = {
+			focus = mac_roads2
+			focus = mac_yugowar2
+		}
+		x = 12
+		y = 4
+	completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = everyoneroads
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10,00
+		prerequisite = {
+			focus = serb_roads
+		}
+		x = 12
+		y = 6
+	completion_reward = {
+			every_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = absolute_military_power
+		icon = GFX_goal_continuous_suppression
+		cost = 10,00
+		prerequisite = {
+			focus = eliminate_corruption
+		}
+		x = 17
+		y = 3
+	completion_reward = {
+			# Balance research bonus for 2 techs under land_doctrine
+			
+			army_experience = 100
+
+			
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 3
+				category = land_doctrine
+			}
+			custom_effect_tooltip = available_chief_of_army
+			show_ideas_tooltip = don_murlione			
+		}
+	}
+	focus = {
+		id = infantry
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10,00
+		prerequisite = {
+			focus = absolute_military_power
+		}
+		x = 15
+		y = 5
+	completion_reward = {
+				add_ideas = macinfant1
+
+		}
+	}
+	focus = {
+		id = mac_sovietdoctrine
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = infantry
+		}
+		x = 15
+		y = 7
+	completion_reward = {
+				add_ideas = macinfant2
+		add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.75
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = mac_mobile
+		icon = GFX_goal_generic_army_motorized
+		cost = 10,00
+		prerequisite = {
+			focus = absolute_military_power
+		}
+		x = 18
+		y = 5
+	completion_reward = {
+			# Balance research bonus to 2 techs in land_doctrine
+			army_experience = 20
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 4
+				name = mech_army_bonus
+				technology = basic_light_tank
+				technology = improved_light_tank
+				technology = advanced_light_tank
+				technology = mechanised_infantry
+			}	
+			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
+		}
+	}
+	focus = {
+		id = mac_panzer
+		icon = GFX_goal_generic_army_tanks
+		cost = 10,00
+		prerequisite = {
+			focus = mac_mobile
+		}
+		x = 18
+		y = 7
+	completion_reward = {
+			# Balance research bonus to 2 techs in land_doctrine
+			army_experience = 20
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 4
+				name = mech_army_bonus
+				technology = basic_medium_tank
+				technology = improved_medium_tank
+				technology = advanced_medium_tank
+			}	
+			# REVISIT Might want to add bonuses to Soviet through event, since focus branches from treaty
+		}
+	}
+	focus = {
+		id = army
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = mac_sovietdoctrine
+		}
+		prerequisite = {
+			focus = mac_panzer
+		}
+		x = 18
+		y = 9
+	completion_reward = {
+				add_ideas = grandmacarmy
+
+		}
+	}
+	focus = {
+		id = politics_influence
+		icon = GFX_goal_continuous_def_against_influence
+		cost = 10,00
+		prerequisite = {
+			focus = eliminate_corruption
+		}
+		x = 25
+		y = 3
+	completion_reward = {
+				political_power = 50
+				country_event = { id = macedonia.2 days = 1 }
+
+		}
+	}
+	focus = {
+		id = the_others
+		icon = GFX_goal_generic_attack_allies
+		cost = 10,00
+		prerequisite = {
+			focus = politics_influence
+		}
+		x = 25
+		y = 5
+	completion_reward = {
+				political_power = 50
+			country_event = { id = macedonia.3 days = 1 }
+		}
+	}
+	focus = {
+		id = mac_demandguarantee
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = the_others
+		}
+		x = 23
+		y = 6
+	completion_reward = {
+			political_power = -25
+			YUG = {
+			country_event = { id = macedonia.4 days = 1 }
+			}
+			
+		}
+	}
+	focus = {
+		id = mac_bulgaria
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = the_others
+		}
+		x = 26
+		y = 6
+	completion_reward = {
+			political_power = -25
+			BUL = {
+			country_event = { id = macedonia.5 days = 1 }
+			}
+			
+		}
+	}
+	focus = {
+		id = mac_mac
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mac_bulgaria
+		}
+		x = 26
+		y = 8
+	
+		completion_reward = {
+			political_power = -25
+			GRE = {
+			country_event = { id = macedonia.5 days = 1 }
+			}
+			
+		}
+	}
+	focus = {
+		id = mac_interventionism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = politics_influence
+		}
+		x = 28
+		y = 4
+
+		completion_reward = {
+			add_ideas = internationalism
+		}
+	}
+	focus = {
+		id = government
+		icon = GFX_goal_generic_national_unity
+		cost = 10,00
+		prerequisite = {
+			focus = politics_influence
+		}
+		x = 30
+		y = 5
+	completion_reward = {
+			political_power = 100
+			national_unity = 5.0
+			
+		}
+	}
+	focus = {
+		id = mac_albanians
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 5,00
+		prerequisite = {
+			focus = government
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = mac_destroy
+		icon = GFX_focus_SAF_colonialist_crusade
+		cost = 10,00
+		prerequisite = {
+			focus = mac_albanians
+		}
+		mutually_exclusive = {
+			focus = mac_equality
+			focus = minority_rights
+		}
+		x = 28
+		y = 8
+
+	}
+	focus = {
+		id = mac_albania
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = the_others
+		}
+		prerequisite = {
+			focus = mac_destroy
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = minority_rights
+		icon = GFX_goal_continuous_increase_nu
+		cost = 3,00
+		prerequisite = {
+			focus = mac_albanians
+		}
+		mutually_exclusive = {
+			focus = mac_destroy
+			focus = mac_equality
+		}
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = mac_statusquo
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = minority_rights
+		}
+		mutually_exclusive = {
+			focus = mac_fasces
+			focus = mac_fasces
+			focus = mac_commune
+		}
+		x = 30
+		y = 11
+
+	}
+	focus = {
+		id = mac_constituion
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 2,00
+		prerequisite = {
+			focus = mac_statusquo
+		}
+		x = 30
+		y = 12
+
+	}
+	focus = {
+		id = mac_detterence
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = politics_influence
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = mac_equality
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5,00
+		prerequisite = {
+			focus = mac_albanians
+		}
+		mutually_exclusive = {
+			focus = mac_destroy
+			focus = minority_rights
+		}
+		x = 32
+		y = 8
+
+	}
+	focus = {
+		id = mac_commune
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5,00
+		prerequisite = {
+			focus = mac_equality
+		}
+		mutually_exclusive = {
+			focus = mac_statusquo
+		}
+		x = 32
+		y = 10
+
+	}
+	focus = {
+		id = mac_fasces
+		icon = GFX_focus_RAJ_seek_help_from_germany
+		cost = 5,00
+		prerequisite = {
+			focus = mac_destroy
+		}
+		mutually_exclusive = {
+			focus = mac_statusquo
+			focus = mac_statusquo
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
+		id = mac_democracy
+		icon = GFX_goal_generic_improve_relations
+		cost = 10,00
+		prerequisite = {
+			focus = mac_constituion
+		}
+		x = 30
+		y = 14
+
+	}
+	focus = {
+		id = mac_yugowar
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mac_demandguarantee
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = mac_yugowar2
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mac_yugowar
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = mac_camps
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mac_albania
+		}
+		prerequisite = {
+			focus = mac_fasces
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = mac_nationalists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mac_commune
+		}
+		x = 35
+		y = 11
+
+	}
+	focus = {
+		id = kill_nationalists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = mac_nationalists
+		}
+		x = 35
+		y = 13
+
+	}
+}

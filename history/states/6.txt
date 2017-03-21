@@ -1,0 +1,28 @@
+state={
+	id=6
+	name= "STATE_6"
+	manpower = 136344
+
+	resources={
+		oil = 6
+	}
+	state_category = rural
+
+	history={
+		owner = X04
+		victory_points = {
+			8187 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = X04
+	}
+
+	provinces={
+		8187 8238 11007 12964 
+	}
+}

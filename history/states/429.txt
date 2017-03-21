@@ -1,0 +1,29 @@
+state={
+	id=429
+	name= "STATE_429"
+	manpower = 2016408
+
+	resources={
+		chromium = 7
+		oil = 30
+	}
+	state_category = rural
+
+	history={
+		owner = W04
+		victory_points = {
+			7624 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		670 683 700 712 728 1450 3668 3672 3682 3711 4463 6689 6701 6730 6748 7554 7624 9628 9645 9647 11632 
+	}
+}

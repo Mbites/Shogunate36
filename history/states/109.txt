@@ -1,0 +1,32 @@
+state={
+	id=109
+	name= "STATE_109"
+	manpower = 13483464
+
+	resources={
+		aluminium = 2
+		chromium = 2
+		steel = 1
+	}
+	state_category = megalopolis
+
+	history={
+		owner = X41
+		victory_points = {
+			7205 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X13
+		add_core_of = X54
+		add_core_of = X88
+	}
+
+	provinces={
+		4106 4950 4953 7205 8076 10801 10872 11993 12080 12799 12854 
+	}
+}

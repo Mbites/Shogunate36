@@ -1,0 +1,27 @@
+state={
+	id=270
+	name= "STATE_270"
+	manpower = 1046568
+
+	state_category = rural
+
+	history={
+		owner = X59
+		victory_points = {
+			8213 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X38
+		add_core_of = X59
+		add_core_of = X97
+	}
+
+	provinces={
+		5162 8149 8213 12869 
+	}
+}

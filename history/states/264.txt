@@ -1,0 +1,29 @@
+state={
+	id=264
+	name= "STATE_264"
+	manpower = 9921768
+
+	resources={
+		steel = 24
+	}
+	state_category = metropolis
+
+	history={
+		owner = X59
+		victory_points = {
+			9859 6
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+		}
+		add_core_of = X59
+	}
+
+	provinces={
+		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+	}
+}

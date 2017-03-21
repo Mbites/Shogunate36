@@ -1,0 +1,27 @@
+state={
+	id=45
+	name= "STATE_45"
+	manpower = 977376
+
+	resources={
+		aluminium = 1
+		chromium = 0
+		steel = 0
+	}
+	state_category = pastoral
+
+	history={
+		owner = X23
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X88
+	}
+
+	provinces={
+		7497 12375 12480 
+	}
+}

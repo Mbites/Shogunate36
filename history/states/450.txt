@@ -1,0 +1,21 @@
+state={
+	id=450
+	name= "STATE_450"
+	manpower = 962136
+
+	state_category = pastoral
+
+	history={
+		owner = W04
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1593 4599 7477 7491 7560 7563 7635 10357 10359 10510 12333 12359 
+	}
+}

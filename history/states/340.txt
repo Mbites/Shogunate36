@@ -1,0 +1,30 @@
+state={
+	id=340
+	name= "STATE_340"
+	manpower = 5932312
+
+	resources={
+		aluminium = 4
+		chromium = 3
+		steel = 3
+	}
+	state_category = city
+
+	history={
+		owner = X88
+		victory_points = {
+			4557 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 6
+		}
+		add_core_of = X88
+	}
+
+	provinces={
+		1510 4557 4883 7574 7619 8120 10401 12420 
+	}
+}

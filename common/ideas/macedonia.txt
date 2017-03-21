@@ -1,0 +1,45 @@
+ideas = {
+
+	country = {
+		MAC_POLITICAL_STRUGGLE = {
+			
+			allowed = {
+				original_tag = MAC
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_cost = 0.3
+				unity_factor = -0.05
+			}
+		}
+		
+		MAC_HABSBURG_REFUGE ={
+		
+			allowed = {
+				original_tag = MAC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = soviet_german_friendship
+			
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
+}	

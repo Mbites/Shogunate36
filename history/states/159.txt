@@ -1,0 +1,29 @@
+state={
+	id=159
+	name= "STATE_159"
+	manpower = 767040
+
+	resources={
+		chromium = 19
+		steel = 2
+		tungsten = 5
+	}
+	state_category = rural
+
+	history={
+		owner = X41
+		victory_points = {
+			12504 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		697 5199 7872 10538 12504 12677 
+	}
+}

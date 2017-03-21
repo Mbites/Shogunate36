@@ -1,0 +1,25 @@
+state={
+	id=368
+	name= "STATE_368"
+	manpower = 1159624
+
+	state_category = pastoral
+
+	history={
+		owner = X96
+		victory_points = {
+			4609 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X96
+	}
+
+	provinces={
+		4580 4609 4637 7602 10385 10768 
+	}
+}

@@ -1,0 +1,33 @@
+state={
+	id=119
+	name= "STATE_119"
+	manpower = 1458704
+
+	resources={
+		rubber = 644
+		steel = 24
+		tungsten = 234
+	}
+	state_category = pastoral
+
+	history={
+		owner = X41
+		victory_points = {
+			10313 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			12299 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = X63
+	}
+
+	provinces={
+		1348 1364 1376 1392 4310 4367 4384 4412 4424 7342 7399 7427 10227 10297 10313 12215 12255 12271 12299 
+	}
+}

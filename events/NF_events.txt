@@ -1,0 +1,85 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.0
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Italy"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			X69 = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = X57
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.1
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Germany"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			X69 = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = X46
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Germany"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			W04 = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = X46
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+state={
+	id=546
+	name= "STATE_546"
+	manpower = 4430112
+
+	resources={
+		aluminium = 0
+		rubber = 1
+		steel = 0
+	}
+	state_category = town
+
+	history={
+		owner = W24
+		victory_points = {
+			4952 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4952 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		4952 8034 10831 
+	}
+}

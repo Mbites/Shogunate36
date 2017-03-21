@@ -1,0 +1,29 @@
+state={
+	id=467
+	name= "STATE_467"
+	manpower = 67864
+
+	resources={
+		steel = 1
+		tungsten = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = W09
+		victory_points = {
+			4435 6
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = W09
+	}
+
+	provinces={
+		4435 
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=198
+	name= "STATE_198"
+	manpower = 295848
+
+	state_category = rural
+
+	history={
+		owner = X45
+		victory_points = {
+			13005 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			13005 = {
+				naval_base = 10
+			}
+			air_base = 0
+		}
+		add_core_of = X45
+	}
+
+	provinces={
+		13002 13005 
+	}
+}

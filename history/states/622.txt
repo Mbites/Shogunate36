@@ -1,0 +1,28 @@
+state={
+	id=622
+	name= "STATE_622"
+	manpower = 612352
+
+	resources={
+		oil = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = W34
+		victory_points = {
+			10840 9
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = W34
+	}
+
+	provinces={
+		1920 1973 2029 4924 4976 5074 8000 10752 10840 12821 12894 13079 
+	}
+}

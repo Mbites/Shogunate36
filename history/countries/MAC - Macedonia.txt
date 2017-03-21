@@ -1,0 +1,110 @@
+﻿capital = 907 # Skopje?
+
+oob = "MAC_1936"
+
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+}
+
+set_politics = {
+
+	parties = {
+        democratic = { 
+            popularity = 10
+        }
+
+        liberal = {
+            popularity = 30
+        }
+        
+        socialist = {
+            popularity = 0
+        }
+        
+        syndicalism = {
+            popularity = 0
+        }
+        
+        ancap = {
+            popularity = 30
+        }
+        
+        fascism = {
+            popularity = 2
+        }
+        
+        communism = {
+            popularity = 3
+        }
+        
+        autocratic = {
+            popularity = 15
+        }
+        
+        neutrality = { 
+            popularity = 10
+        }
+    }
+	
+	ruling_party = neutrality
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_national_unity = 0.50
+
+add_ideas = {
+	MAC_POLITICAL_STRUGGLE
+	MAC_HABSBURG_REFUGE
+	limited_exports
+}
+
+create_country_leader = {
+	name = "Nikola Gruevski"
+	desc = ""
+	picture = "gfx/leaders/MAC/Portrait_MAC_FAS.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		dictator
+	}
+}
+
+create_country_leader = {
+	name = "Roland von Habsburg"
+	desc = ""
+	picture = "gfx/leaders/MAC/Portrait_MAC_NOA.dds"
+	expire = "1953.3.1"
+	ideology = moderatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Lazar Kolishevski"
+	desc = ""
+	picture = "gfx/leaders/MAC/Portrait_MAC_COM.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		stalins_puppet
+	}
+}
+
+

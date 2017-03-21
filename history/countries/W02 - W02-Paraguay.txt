@@ -1,0 +1,156 @@
+﻿capital = 398
+
+oob = "W02_OOB"
+
+# Starting tech
+set_technology = {
+gw_artillery = 1
+tech_engineers = 1
+tech_recon = 1
+tech_support = 1
+}
+set_convoys = 0
+1939.1.1 = {
+
+    
+}
+
+set_politics = {
+
+    parties = {
+        democratic = { 
+            popularity = 0
+        }
+
+        liberal = {
+            popularity = 0
+        }
+        
+        socialist = {
+            popularity = 0
+        }
+        
+        syndicalism = {
+            popularity = 0
+        }
+        
+        ancap = {
+            popularity = 0
+        }
+        
+        fascism = {
+            popularity = 0
+        }
+        
+        communism = {
+            popularity = 100
+        }
+        
+        autocratic = {
+            popularity = 0
+        }
+        
+        neutrality = { 
+            popularity = 0
+        }
+    }
+    
+    ruling_party = communism
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+add_opinion_modifier = { target = W00 modifier = positive_0 }
+add_opinion_modifier = { target = W01 modifier = positive_0 }
+add_opinion_modifier = { target = W04 modifier = positive_0 }
+add_opinion_modifier = { target = W06 modifier = positive_0 }
+add_opinion_modifier = { target = W08 modifier = positive_0 }
+add_opinion_modifier = { target = W09 modifier = positive_0 }
+add_opinion_modifier = { target = W10 modifier = positive_0 }
+add_opinion_modifier = { target = W13 modifier = positive_0 }
+add_opinion_modifier = { target = W14 modifier = positive_0 }
+add_opinion_modifier = { target = W15 modifier = positive_0 }
+add_opinion_modifier = { target = W16 modifier = positive_0 }
+add_opinion_modifier = { target = W17 modifier = positive_0 }
+add_opinion_modifier = { target = W18 modifier = positive_0 }
+add_opinion_modifier = { target = W20 modifier = positive_0 }
+add_opinion_modifier = { target = W22 modifier = positive_0 }
+add_opinion_modifier = { target = W24 modifier = positive_0 }
+add_opinion_modifier = { target = W26 modifier = positive_0 }
+add_opinion_modifier = { target = W27 modifier = positive_128 }
+add_opinion_modifier = { target = W28 modifier = positive_140 }
+add_opinion_modifier = { target = W30 modifier = positive_25 }
+add_opinion_modifier = { target = W31 modifier = positive_0 }
+add_opinion_modifier = { target = W32 modifier = positive_0 }
+add_opinion_modifier = { target = W33 modifier = positive_0 }
+add_opinion_modifier = { target = W34 modifier = positive_0 }
+add_opinion_modifier = { target = W35 modifier = positive_0 }
+add_opinion_modifier = { target = X01 modifier = positive_0 }
+add_opinion_modifier = { target = X03 modifier = positive_0 }
+add_opinion_modifier = { target = X04 modifier = negative_14 }
+add_opinion_modifier = { target = X07 modifier = positive_0 }
+add_opinion_modifier = { target = X10 modifier = positive_0 }
+add_opinion_modifier = { target = X11 modifier = positive_0 }
+add_opinion_modifier = { target = X12 modifier = positive_0 }
+add_opinion_modifier = { target = X13 modifier = positive_0 }
+add_opinion_modifier = { target = X14 modifier = positive_0 }
+add_opinion_modifier = { target = X15 modifier = positive_0 }
+add_opinion_modifier = { target = X17 modifier = positive_37 }
+add_opinion_modifier = { target = X19 modifier = positive_0 }
+add_opinion_modifier = { target = X20 modifier = positive_0 }
+add_opinion_modifier = { target = X21 modifier = positive_0 }
+add_opinion_modifier = { target = X23 modifier = positive_0 }
+add_opinion_modifier = { target = X24 modifier = positive_0 }
+add_opinion_modifier = { target = X25 modifier = positive_0 }
+add_opinion_modifier = { target = X27 modifier = positive_0 }
+add_opinion_modifier = { target = X28 modifier = negative_19 }
+add_opinion_modifier = { target = X29 modifier = negative_9 }
+add_opinion_modifier = { target = X36 modifier = positive_0 }
+add_opinion_modifier = { target = X37 modifier = positive_0 }
+add_opinion_modifier = { target = X39 modifier = positive_0 }
+add_opinion_modifier = { target = X40 modifier = positive_0 }
+add_opinion_modifier = { target = X41 modifier = positive_0 }
+add_opinion_modifier = { target = X43 modifier = positive_0 }
+add_opinion_modifier = { target = X45 modifier = positive_0 }
+add_opinion_modifier = { target = X46 modifier = positive_0 }
+add_opinion_modifier = { target = X47 modifier = positive_0 }
+add_opinion_modifier = { target = X48 modifier = positive_0 }
+add_opinion_modifier = { target = X49 modifier = positive_0 }
+add_opinion_modifier = { target = X50 modifier = positive_0 }
+add_opinion_modifier = { target = X57 modifier = positive_0 }
+add_opinion_modifier = { target = X58 modifier = positive_0 }
+add_opinion_modifier = { target = X59 modifier = positive_0 }
+add_opinion_modifier = { target = X60 modifier = positive_0 }
+add_opinion_modifier = { target = X62 modifier = positive_0 }
+add_opinion_modifier = { target = X65 modifier = positive_0 }
+add_opinion_modifier = { target = X66 modifier = positive_0 }
+add_opinion_modifier = { target = X68 modifier = positive_0 }
+add_opinion_modifier = { target = X69 modifier = positive_0 }
+add_opinion_modifier = { target = X73 modifier = positive_0 }
+add_opinion_modifier = { target = X76 modifier = positive_0 }
+add_opinion_modifier = { target = X77 modifier = positive_0 }
+add_opinion_modifier = { target = X79 modifier = positive_0 }
+add_opinion_modifier = { target = X80 modifier = positive_0 }
+add_opinion_modifier = { target = X81 modifier = positive_0 }
+add_opinion_modifier = { target = X82 modifier = positive_0 }
+add_opinion_modifier = { target = X83 modifier = positive_0 }
+add_opinion_modifier = { target = X84 modifier = positive_0 }
+add_opinion_modifier = { target = X88 modifier = positive_0 }
+add_opinion_modifier = { target = X89 modifier = positive_0 }
+add_opinion_modifier = { target = X90 modifier = positive_0 }
+add_opinion_modifier = { target = X91 modifier = positive_0 }
+add_opinion_modifier = { target = X92 modifier = positive_0 }
+add_opinion_modifier = { target = X93 modifier = positive_0 }
+add_opinion_modifier = { target = X94 modifier = positive_0 }
+add_opinion_modifier = { target = X95 modifier = positive_0 }
+add_opinion_modifier = { target = X96 modifier = positive_0 }
+
+
+add_ideas = {
+low_economic_mobilisation
+}
+
+
+1939.1.1 = {
+    
+}

@@ -1,0 +1,29 @@
+state={
+	id=543
+	name= "STATE_543"
+	manpower = 1459896
+
+	resources={
+		aluminium = 0
+		rubber = 2
+		steel = 0
+	}
+	state_category = pastoral
+
+	history={
+		owner = W24
+		victory_points = {
+			4997 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		4997 5028 
+	}
+}

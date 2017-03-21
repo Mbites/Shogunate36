@@ -1,0 +1,33 @@
+state={
+	id=76
+	name= "STATE_76"
+	manpower = 3598560
+
+	resources={
+		chromium = 1
+	}
+	state_category = city
+
+	history={
+		owner = X40
+		victory_points = {
+			12823 8
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			12823 = {
+				naval_base = 4
+			}
+			air_base = 6
+		}
+		add_core_of = W26
+		add_core_of = X40
+	}
+
+	provinces={
+		12823 13093 
+	}
+}

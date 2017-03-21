@@ -1,0 +1,31 @@
+state={
+	id=312
+	name= "STATE_312"
+	manpower = 9365840
+
+	resources={
+		aluminium = 16
+		oil = 34
+	}
+	state_category = large_city
+
+	history={
+		owner = X69
+		victory_points = {
+			9468 4
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W00
+		add_core_of = W05
+		add_core_of = X69
+	}
+
+	provinces={
+		438 491 536 3434 3483 3562 3743 6431 6460 6483 9425 9454 9468 9558 11411 11427 11479 11550 
+	}
+}

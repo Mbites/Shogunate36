@@ -1,0 +1,26 @@
+state={
+	id=126
+	name= "STATE_126"
+	manpower = 582824
+
+	resources={
+		aluminium = 2
+		chromium = 13
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = X41
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		4556 
+	}
+}

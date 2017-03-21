@@ -1,0 +1,153 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "---"
+		default = yes
+		
+
+		"W28"={
+			history = "AMERICAN_DESC"
+			ideology = liberal
+			ideas = {
+			    great_power
+			}
+			focuses = {
+
+			}
+		}
+
+		"X59"={
+			history = "JAPANESE_DESC"
+			ideology = autocratic
+			ideas = {
+				great_power
+				shogun_oda
+				Japanese_Age
+			}
+			focuses = {
+
+			}
+		}
+		
+		"X46"={
+			history = "GERMAN_DESC"
+			ideology = socialist
+			ideas = {
+				great_power
+				X46_bitter_victors
+				split_germany
+			}
+			focuses = {
+
+			}
+		}
+		
+		"X41"={
+			history = "ENGLISH_DESC"
+			ideology = autocratic
+			ideas = {
+				great_power
+				declining_imperialism
+			}
+			focuses = {
+
+			}
+		}
+		
+		"W24"={
+			history = "TURKISH_DESC"
+			ideology = autocratic
+			ideas = {
+				great_power
+			}
+			focuses = {
+
+			}
+		}
+		
+		"X69"={
+			history = "AUSTRIAN_DESC"
+			ideology = socialist
+			ideas = {
+				great_power
+				austrian_doctrine
+				thallerist_terror
+			}
+			focuses = {
+
+			}
+		}
+		
+		"X45"={
+			history = "FRENCH_DESC"
+			ideology = liberal
+			ideas = {
+				great_power
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"W04"={
+			history = "RUSSIAN_DESC"
+			ideology = liberal
+			ideas = {
+				great_power
+				vladivostok_trauma
+				Sleeping_Bear
+			}
+			focuses = {
+
+			}
+		}
+		
+		"MAC"={
+			minor = yes
+			history = "MACEDONIAN_DESC"
+			ideology = neutrality
+			ideas = {
+					MAC_POLITICAL_STRUGGLE
+					MAC_HABSBURG_REFUGE
+			}
+			focuses = {
+				mac_destroy
+				mac_equality
+				mac_statusquo
+			}
+		}
+		
+		"W26"={
+			minor = yes
+			history = "CENTRALAMERICA_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		
+		"W13"={
+			minor = yes
+			history = "SOKOTIAN_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

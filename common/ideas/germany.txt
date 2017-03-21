@@ -1,0 +1,49 @@
+ideas = {
+
+	country = {
+		X46_bitter_victors = {
+			
+			allowed = {
+				original_tag = X46
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			research_bonus = {
+				land_doctrine = -0.75
+			}
+			modifier = {
+				army_morale_factor = -0.25
+				conscription = -0.003
+			}
+		}
+		
+		split_germany = {
+			
+			allowed = {
+				original_tag = X46
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			picture = neutrality_idea
+
+			modifier = {
+			   national_unity = -2.5
+			   socialist_drift = 0.05
+			   autocratic_drift = 0.05
+			}
+
+		}
+	}	
+}

@@ -1,0 +1,27 @@
+state={
+	id=470
+	name= "STATE_470"
+	manpower = 2948016
+
+	resources={
+		aluminium = 0
+		rubber = 1
+		steel = 0
+	}
+	state_category = rural
+
+	history={
+		owner = W13
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W13
+	}
+
+	provinces={
+		1992 12900 
+	}
+}

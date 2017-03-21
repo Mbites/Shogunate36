@@ -1,0 +1,29 @@
+state={
+	id=96
+	name= "STATE_96"
+	manpower = 6438168
+
+	state_category = large_city
+
+	history={
+		owner = X41
+		victory_points = {
+			11221 6
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 2
+			322 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = X41
+	}
+
+	provinces={
+		221 271 296 322 3287 11221 11253 11374 
+	}
+}

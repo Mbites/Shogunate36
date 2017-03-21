@@ -1,0 +1,29 @@
+state={
+	id=176
+	name= "STATE_176"
+	manpower = 7644672
+
+	state_category = metropolis
+
+	history={
+		owner = X45
+		victory_points = {
+			3552 7
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 6
+			arms_factory = 0
+			dockyard = 3
+			3552 = {
+				naval_base = 10
+			}
+			air_base = 2
+		}
+		add_core_of = X45
+	}
+
+	provinces={
+		527 542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
+	}
+}

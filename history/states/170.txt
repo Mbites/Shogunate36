@@ -1,0 +1,28 @@
+state={
+	id=170
+	name= "STATE_170"
+	manpower = 3247952
+
+	resources={
+		rubber = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = X43
+		victory_points = {
+			1984 9
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = X43
+	}
+
+	provinces={
+		1984 2040 2072 4954 5041 5097 7944 
+	}
+}

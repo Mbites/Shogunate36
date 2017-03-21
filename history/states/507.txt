@@ -1,0 +1,33 @@
+state={
+	id=507
+	name= "STATE_507"
+	manpower = 1146944
+
+	resources={
+		oil = 24
+	}
+	state_category = pastoral
+
+	history={
+		owner = W24
+		victory_points = {
+			657 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			687 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = W24
+		add_core_of = W31
+		add_core_of = X22
+	}
+
+	provinces={
+		657 687 9614 9635 11597 
+	}
+}

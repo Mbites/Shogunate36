@@ -1,0 +1,104 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Basic Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "W35"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Basic Infantry Division"
+		location = 1010
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Basic Infantry Division"
+		location = 1010
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Basic Infantry Division"
+		location = 1010
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Basic Infantry Division"
+		location = 1010
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Basic Infantry Division"
+		location = 1010
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Basic Infantry Division"
+		location = 4937
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Basic Infantry Division"
+		location = 4937
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Basic Infantry Division"
+		location = 4937
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9. Basic Infantry Division"
+		location = 4937
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10. Basic Infantry Division"
+		location = 4937
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11. Basic Infantry Division"
+		location = 7606
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "12. Basic Infantry Division"
+		location = 7606
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+}

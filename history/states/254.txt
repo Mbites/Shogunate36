@@ -1,0 +1,33 @@
+state={
+	id=254
+	name= "STATE_254"
+	manpower = 10029360
+
+	resources={
+		aluminium = 10
+		steel = 14
+	}
+	state_category = megalopolis
+
+	history={
+		owner = X57
+		victory_points = {
+			819 9
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 4
+			dockyard = 3
+			819 = {
+				naval_base = 8
+			}
+			air_base = 3
+		}
+		add_core_of = X57
+	}
+
+	provinces={
+		819 851 923 955 3901 3958 3968 6972 9826 9856 9990 10027 11846 12066 12098 
+	}
+}

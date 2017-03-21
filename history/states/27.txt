@@ -1,0 +1,30 @@
+state={
+	id=27
+	name= "STATE_27"
+	manpower = 409592
+
+	resources={
+		oil = 1
+		steel = 1
+		tungsten = 29
+	}
+	state_category = rural
+
+	history={
+		owner = X17
+		victory_points = {
+			12930 8
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = X17
+	}
+
+	provinces={
+		2160 5179 10924 10987 12902 12916 12930 12973 12979 
+	}
+}

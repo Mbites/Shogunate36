@@ -1,0 +1,29 @@
+state={
+	id=377
+	name= "STATE_377"
+	manpower = 5480216
+
+	resources={
+		oil = 2
+		steel = 18
+	}
+	state_category = city
+
+	history={
+		owner = W00
+		victory_points = {
+			3544 12
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = W00
+	}
+
+	provinces={
+		266 402 467 524 548 3230 3482 3521 3544 3559 6259 6321 6347 6401 6484 6511 6567 6580 9290 9316 9327 9400 9452 9494 9521 9544 11385 11386 11399 11466 11492 12562 
+	}
+}

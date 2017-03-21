@@ -1,0 +1,32 @@
+state={
+	id=484
+	name= "STATE_484"
+	manpower = 725560
+
+	resources={
+		steel = 20
+	}
+	state_category = rural
+
+	history={
+		owner = W14
+		victory_points = {
+			7215 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12100 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = W14
+		add_core_of = X85
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+}

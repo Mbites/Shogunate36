@@ -1,0 +1,33 @@
+state={
+	id=253
+	name= "STATE_253"
+	manpower = 4464688
+
+	resources={
+		aluminium = 6
+		steel = 10
+	}
+	state_category = city
+
+	history={
+		owner = X57
+		victory_points = {
+			9838 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			6979 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = X57
+	}
+
+	provinces={
+		883 963 3910 3923 3966 6831 6843 6939 6979 6980 9784 9838 11803 11837 11882 11998 
+	}
+}

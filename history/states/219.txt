@@ -1,0 +1,33 @@
+state={
+	id=219
+	name= "STATE_219"
+	manpower = 3771480
+
+	resources={
+		oil = 2
+	}
+	state_category = city
+
+	history={
+		owner = X46
+		victory_points = {
+			9347 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			3326 = {
+				naval_base = 8
+			}
+			air_base = 2
+		}
+		add_core_of = X41
+		add_core_of = X46
+	}
+
+	provinces={
+		241 336 374 3326 3368 6218 6263 6298 6325 6349 9238 9264 9347 
+	}
+}

@@ -1,0 +1,32 @@
+state={
+	id=104
+	name= "STATE_104"
+	manpower = 30367216
+
+	resources={
+		rubber = 0
+		steel = 8
+		tungsten = 5
+	}
+	state_category = megalopolis
+
+	history={
+		owner = X41
+		victory_points = {
+			1159 1
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			9935 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1159 1609 2843 4062 4162 4245 7078 7124 9935 9991 10035 10321 11911 11968 12010 12050 12251 
+	}
+}

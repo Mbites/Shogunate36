@@ -1,0 +1,57 @@
+ideas = {
+	
+	country = {
+	
+		austrian_doctrine = {
+			
+			allowed = {
+				original_tag = X69
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			picture = fourth_international
+			
+			removal_cost = -1
+			
+			modifier ={
+				conscription = 0.10
+				supply_consumption_factor = -0.30
+				experience_gain_army_factor = -0.10
+			
+			}
+
+		}
+		
+		thallerist_terror = {
+			
+			allowed = {
+				original_tag = X69
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			picture = officers_purged
+			
+			removal_cost = -1
+			
+			modifier ={
+						drift_defence_factor = 0.75
+						communism_drift = 0.10
+						socialist_drift = 0.05
+						syndicalism_drift = 0.05
+			
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}
+
+		}
+		
+	}
+}

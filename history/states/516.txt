@@ -1,0 +1,33 @@
+state={
+	id=516
+	name= "STATE_516"
+	manpower = 3204384
+
+	resources={
+		aluminium = 3
+		chromium = 3
+	}
+	state_category = rural
+
+	history={
+		owner = W24
+		victory_points = {
+			9875 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			9780 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = W24
+		add_core_of = X02
+	}
+
+	provinces={
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 
+	}
+}

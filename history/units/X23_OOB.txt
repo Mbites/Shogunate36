@@ -1,0 +1,49 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Support Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Basic Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "X23"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Support Infantry Division"
+		location = 5040
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=338
+	name= "STATE_338"
+	manpower = 2197600
+
+	state_category = city
+
+	history={
+		owner = X83
+		victory_points = {
+			6747 7
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 0
+			air_base = 6
+		}
+		add_core_of = X83
+	}
+
+	provinces={
+		723 744 3728 3741 6584 6706 6729 6747 9701 9716 11534 11652 11655 11672 
+	}
+}

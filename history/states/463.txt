@@ -1,0 +1,30 @@
+state={
+	id=463
+	name= "STATE_463"
+	manpower = 1722600
+
+	resources={
+		rubber = 31
+		steel = 4
+		tungsten = 4
+	}
+	state_category = pastoral
+
+	history={
+		owner = W08
+		victory_points = {
+			1488 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W08
+	}
+
+	provinces={
+		1253 1488 1990 4496 4566 7312 7338 7353 7492 7544 7559 7572 7675 10371 10398 10411 12173 12345 
+	}
+}

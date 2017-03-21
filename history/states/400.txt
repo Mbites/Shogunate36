@@ -1,0 +1,30 @@
+state={
+	id=400
+	name= "STATE_400"
+	manpower = 4233024
+
+	state_category = town
+
+	history={
+		owner = W04
+		victory_points = {
+			9194 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			3083 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = W04
+		add_core_of = W15
+		add_core_of = X44
+	}
+
+	provinces={
+		32 52 63 66 67 169 204 3009 3025 3050 3060 3061 3083 3117 3119 3122 3133 3137 3161 3172 3187 6009 6013 6047 6052 6066 6082 6108 6138 6141 6144 6150 6153 6163 6186 6198 9038 9073 9094 9100 9105 9129 9150 9156 9160 9166 9167 9176 9183 9194 9206 9228 11033 11046 11056 11065 11066 11105 11126 11138 11144 11156 11162 11172 11211 
+	}
+}

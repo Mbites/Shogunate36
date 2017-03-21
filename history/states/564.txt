@@ -1,0 +1,32 @@
+state={
+	id=564
+	name= "STATE_564"
+	manpower = 275704
+
+	resources={
+		chromium = 1
+	}
+	state_category = rural
+
+	history={
+		owner = W26
+		victory_points = {
+			13087 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			13092 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = W26
+	}
+
+	provinces={
+		12878 13087 13092 
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=298
+	name= "STATE_298"
+	manpower = 418784
+
+	resources={
+		chromium = 11
+	}
+	state_category = rural
+
+	history={
+		owner = X66
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X66
+	}
+
+	provinces={
+		1216 1384 1919 4542 8027 10417 11687 12250 12430 12805 
+	}
+}

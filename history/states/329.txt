@@ -1,0 +1,31 @@
+state={
+	id=329
+	name= "STATE_329"
+	manpower = 1065568
+
+	resources={
+		rubber = 2
+	}
+	state_category = pastoral
+
+	history={
+		owner = X81
+		victory_points = {
+			10765 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12461 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = X81
+	}
+
+	provinces={
+		1892 1904 2069 4908 4977 7964 8012 8033 8119 10765 10848 12461 12736 12833 12859 
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=611
+	name= "STATE_611"
+	manpower = 1644336
+
+	state_category = rural
+
+	history={
+		owner = W28
+		victory_points = {
+			13202 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			13202 = {
+				naval_base = 6
+			}
+			air_base = 0
+		}
+		add_core_of = W28
+	}
+
+	provinces={
+		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
+	}
+}

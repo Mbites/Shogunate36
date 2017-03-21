@@ -1,0 +1,31 @@
+state={
+	id=441
+	name= "STATE_441"
+	manpower = 1602728
+
+	resources={
+		oil = 130
+		steel = 6
+	}
+	state_category = pastoral
+
+	history={
+		owner = W04
+		victory_points = {
+			7661 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W04
+		add_core_of = X05
+		add_core_of = X08
+	}
+
+	provinces={
+		1467 1536 1539 1610 4458 4473 4477 4545 4605 4614 6763 7495 7661 9715 11645 11674 11704 12309 12434 
+	}
+}

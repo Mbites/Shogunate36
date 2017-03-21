@@ -1,0 +1,26 @@
+state={
+	id=590
+	name= "STATE_590"
+	manpower = 1171408
+
+	resources={
+		oil = 10
+		tungsten = 21
+	}
+	state_category = rural
+
+	history={
+		owner = W28
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = W28
+	}
+
+	provinces={
+		917 1323 1411 1737 4343 4678 7677 7753 7761 7853 10644 12571 
+	}
+}

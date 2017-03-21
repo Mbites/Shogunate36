@@ -1,0 +1,33 @@
+state={
+	id=90
+	name= "STATE_90"
+	manpower = 3379688
+
+	resources={
+		aluminium = 14
+		chromium = 1
+		tungsten = 24
+	}
+	state_category = large_town
+
+	history={
+		owner = X41
+		victory_points = {
+			9161 4
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			11161 = {
+				naval_base = 8
+			}
+			air_base = 0
+		}
+		add_core_of = X41
+	}
+
+	provinces={
+		131 159 200 3150 3159 3178 6046 6062 6104 6196 6205 6300 9075 9090 9161 11055 11064 11136 11161 11207 11266 11306 
+	}
+}

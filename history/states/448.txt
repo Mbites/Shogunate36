@@ -1,0 +1,21 @@
+state={
+	id=448
+	name= "STATE_448"
+	manpower = 196688
+
+	state_category = rural
+
+	history={
+		owner = W04
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		475 642 1517 3593 4523 4563 4620 10262 10406 11701 13008 
+	}
+}

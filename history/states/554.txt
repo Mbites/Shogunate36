@@ -1,0 +1,31 @@
+state={
+	id=554
+	name= "STATE_554"
+	manpower = 593624
+
+	resources={
+		aluminium = 0
+		chromium = 0
+		oil = 0
+		rubber = 0
+		steel = 2
+	}
+	state_category = rural
+
+	history={
+		owner = W24
+		victory_points = {
+			12830 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+	}
+
+	provinces={
+		1883 1974 3165 5084 7919 8078 10764 11012 11108 12719 12830 
+	}
+}

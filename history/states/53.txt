@@ -1,0 +1,33 @@
+state={
+	id=53
+	name= "STATE_53"
+	manpower = 1203800
+
+	resources={
+		oil = 1
+	}
+	state_category = rural
+
+	history={
+		owner = X29
+		victory_points = {
+			7630 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7630 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = X29
+		add_core_of = X99
+	}
+
+	provinces={
+		1633 4611 4624 7617 7630 10482 
+	}
+}

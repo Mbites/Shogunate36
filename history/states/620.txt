@@ -1,0 +1,27 @@
+state={
+	id=620
+	name= "STATE_620"
+	manpower = 7200864
+
+	resources={
+		steel = 1
+		tungsten = 1
+	}
+	state_category = city
+
+	history={
+		owner = W32
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = W32
+		add_core_of = X27
+	}
+
+	provinces={
+		531 1257 2045 4313 4375 4403 5193 7397 9966 10787 10903 
+	}
+}

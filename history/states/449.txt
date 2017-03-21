@@ -1,0 +1,25 @@
+state={
+	id=449
+	name= "STATE_449"
+	manpower = 608912
+
+	state_category = rural
+
+	history={
+		owner = W04
+		victory_points = {
+			4277 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		4277 7392 10220 10268 10275 10277 12111 12121 12177 12194 
+	}
+}

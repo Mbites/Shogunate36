@@ -1,0 +1,176 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Basic Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "W17"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Cavalry Division"
+		location = 1203
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1. Basic Infantry Division"
+		location = 1203
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Cavalry Division"
+		location = 1203
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Basic Infantry Division"
+		location = 1203
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Cavalry Division"
+		location = 1203
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Basic Infantry Division"
+		location = 1203
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Cavalry Division"
+		location = 1519
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Basic Infantry Division"
+		location = 1519
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Cavalry Division"
+		location = 1519
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Basic Infantry Division"
+		location = 1519
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Cavalry Division"
+		location = 4634
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Basic Infantry Division"
+		location = 4634
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Cavalry Division"
+		location = 4634
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Basic Infantry Division"
+		location = 4634
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Cavalry Division"
+		location = 4634
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Basic Infantry Division"
+		location = 4634
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9. Basic Infantry Division"
+		location = 8055
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10. Basic Infantry Division"
+		location = 8055
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11. Basic Infantry Division"
+		location = 12078
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "12. Basic Infantry Division"
+		location = 12078
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "13. Basic Infantry Division"
+		location = 12078
+		division_template = "Basic Infantry Division"
+		start_experience_factor = 0.3
+	}
+}

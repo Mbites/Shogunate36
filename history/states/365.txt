@@ -1,0 +1,27 @@
+state={
+	id=365
+	name= "STATE_365"
+	manpower = 3075632
+
+	state_category = rural
+
+	history={
+		owner = X95
+		victory_points = {
+			5042 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X64
+		add_core_of = X71
+		add_core_of = X95
+	}
+
+	provinces={
+		2041 5042 7273 7316 8005 10821 12884 
+	}
+}

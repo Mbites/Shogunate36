@@ -1,0 +1,28 @@
+state={
+	id=43
+	name= "STATE_43"
+	manpower = 3076736
+
+	resources={
+		chromium = 17
+	}
+	state_category = large_town
+
+	history={
+		owner = X21
+		victory_points = {
+			1554 6
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+		}
+		add_core_of = X21
+	}
+
+	provinces={
+		756 1554 1573 1623 1632 4499 4629 4636 7501 7507 7639 7682 7775 7777 9605 10366 10470 10671 12161 12722 
+	}
+}

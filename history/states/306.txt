@@ -1,0 +1,33 @@
+state={
+	id=306
+	name= "STATE_306"
+	manpower = 11429448
+
+	resources={
+		aluminium = 4
+		steel = 20
+		tungsten = 2
+	}
+	state_category = metropolis
+
+	history={
+		owner = X69
+		victory_points = {
+			9539 4
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+		}
+		add_core_of = W05
+		add_core_of = W12
+		add_core_of = X35
+		add_core_of = X69
+	}
+
+	provinces={
+		541 555 581 3484 3537 3548 3550 3565 3581 3716 6561 6571 6573 6586 6604 9537 9539 9563 9692 11522 11536 11539 11554 11679 11691 
+	}
+}

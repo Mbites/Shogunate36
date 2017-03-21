@@ -1,0 +1,31 @@
+state={
+	id=509
+	name= "STATE_509"
+	manpower = 851304
+
+	resources={
+		aluminium = 41
+		chromium = 13
+		steel = 1
+	}
+	state_category = rural
+
+	history={
+		owner = W24
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			9809 = {
+				naval_base = 4
+			}
+			air_base = 0
+		}
+		add_core_of = W24
+		add_core_of = X84
+	}
+
+	provinces={
+		937 982 3922 6913 9809 11845 
+	}
+}

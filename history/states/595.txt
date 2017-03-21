@@ -1,0 +1,31 @@
+state={
+	id=595
+	name= "STATE_595"
+	manpower = 752416
+
+	resources={
+		aluminium = 16
+		oil = 10
+		steel = 40
+	}
+	state_category = rural
+
+	history={
+		owner = W28
+		victory_points = {
+			8115 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W28
+		add_core_of = X81
+	}
+
+	provinces={
+		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 10783 11814 12765 
+	}
+}

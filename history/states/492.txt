@@ -1,0 +1,28 @@
+state={
+	id=492
+	name= "STATE_492"
+	manpower = 1480016
+
+	state_category = pastoral
+
+	history={
+		owner = W14
+		victory_points = {
+			7100 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10070 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = X85
+	}
+
+	provinces={
+		1079 1194 4084 7100 10013 10070 11987 12042 
+	}
+}

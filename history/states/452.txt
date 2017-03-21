@@ -1,0 +1,25 @@
+state={
+	id=452
+	name= "STATE_452"
+	manpower = 986088
+
+	state_category = pastoral
+
+	history={
+		owner = W04
+		victory_points = {
+			12574 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		96 1664 1684 1768 1784 3169 3415 4669 4761 4817 7685 7689 7738 8461 9142 10536 10564 10692 12517 12542 12545 12574 12639 12672 
+	}
+}

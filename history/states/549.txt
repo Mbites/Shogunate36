@@ -1,0 +1,28 @@
+state={
+	id=549
+	name= "STATE_549"
+	manpower = 2152528
+
+	resources={
+		rubber = 1
+	}
+	state_category = rural
+
+	history={
+		owner = W24
+		victory_points = {
+			10734 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X43
+	}
+
+	provinces={
+		2009 7912 8019 10734 12856 
+	}
+}

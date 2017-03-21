@@ -1,0 +1,841 @@
+﻿start_equipment_factor = 0
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Mountaineers"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Support Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Advance Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Basic Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	}
+}
+
+### No BHU air forces ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "X41"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}
+units = {
+	division = {
+		name = "1. Cavalry Division"
+		location = 1409
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1. Mountaineers"
+		location = 1409
+		division_template = "Mountaineers"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1. Advance Infantry Division"
+		location = 1409
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Cavalry Division"
+		location = 1409
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Mountaineers"
+		location = 1409
+		division_template = "Mountaineers"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Advance Infantry Division"
+		location = 1409
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Cavalry Division"
+		location = 1409
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Advance Infantry Division"
+		location = 1409
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Cavalry Division"
+		location = 1409
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Advance Infantry Division"
+		location = 1409
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Cavalry Division"
+		location = 1409
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Advance Infantry Division"
+		location = 1409
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Cavalry Division"
+		location = 1541
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Advance Infantry Division"
+		location = 1541
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Cavalry Division"
+		location = 1541
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Advance Infantry Division"
+		location = 1541
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Cavalry Division"
+		location = 1541
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Advance Infantry Division"
+		location = 1541
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9. Cavalry Division"
+		location = 1541
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9. Advance Infantry Division"
+		location = 1541
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10. Cavalry Division"
+		location = 1541
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10. Advance Infantry Division"
+		location = 1541
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11. Cavalry Division"
+		location = 1609
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11. Advance Infantry Division"
+		location = 1609
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "12. Cavalry Division"
+		location = 1609
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "12. Advance Infantry Division"
+		location = 1609
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "13. Cavalry Division"
+		location = 1609
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "13. Advance Infantry Division"
+		location = 1609
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "14. Cavalry Division"
+		location = 1872
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "14. Advance Infantry Division"
+		location = 1872
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "15. Cavalry Division"
+		location = 1872
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "15. Advance Infantry Division"
+		location = 1872
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16. Cavalry Division"
+		location = 1872
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16. Advance Infantry Division"
+		location = 1872
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "17. Cavalry Division"
+		location = 1872
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "17. Advance Infantry Division"
+		location = 1872
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "18. Cavalry Division"
+		location = 1872
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "18. Advance Infantry Division"
+		location = 1872
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "19. Cavalry Division"
+		location = 1873
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "19. Advance Infantry Division"
+		location = 1873
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "20. Cavalry Division"
+		location = 1873
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "20. Advance Infantry Division"
+		location = 1873
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "21. Cavalry Division"
+		location = 1873
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "21. Advance Infantry Division"
+		location = 1873
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "22. Cavalry Division"
+		location = 1873
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "22. Advance Infantry Division"
+		location = 1873
+		division_template = "Advance Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "23. Cavalry Division"
+		location = 1873
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1. Support Infantry Division"
+		location = 1873
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "24. Cavalry Division"
+		location = 1873
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Support Infantry Division"
+		location = 1873
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "25. Cavalry Division"
+		location = 2032
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Support Infantry Division"
+		location = 2032
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "26. Cavalry Division"
+		location = 2032
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Support Infantry Division"
+		location = 2032
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "27. Cavalry Division"
+		location = 2032
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Support Infantry Division"
+		location = 2032
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "28. Cavalry Division"
+		location = 2032
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Support Infantry Division"
+		location = 2032
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "29. Cavalry Division"
+		location = 2038
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Support Infantry Division"
+		location = 2038
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "30. Cavalry Division"
+		location = 2038
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Support Infantry Division"
+		location = 2038
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9. Support Infantry Division"
+		location = 2038
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10. Support Infantry Division"
+		location = 2038
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11. Support Infantry Division"
+		location = 4045
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "12. Support Infantry Division"
+		location = 4045
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "13. Support Infantry Division"
+		location = 4045
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "14. Support Infantry Division"
+		location = 4982
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "15. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "17. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "18. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "19. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "20. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "21. Support Infantry Division"
+		location = 6320
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "22. Support Infantry Division"
+		location = 7090
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "23. Support Infantry Division"
+		location = 7090
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "24. Support Infantry Division"
+		location = 7345
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "25. Support Infantry Division"
+		location = 7345
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "26. Support Infantry Division"
+		location = 7345
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "27. Support Infantry Division"
+		location = 7345
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "28. Support Infantry Division"
+		location = 7345
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "29. Support Infantry Division"
+		location = 7565
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "30. Support Infantry Division"
+		location = 8122
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "31. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "32. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "33. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "34. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "35. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "36. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "37. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "38. Support Infantry Division"
+		location = 10026
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "39. Support Infantry Division"
+		location = 10710
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "40. Support Infantry Division"
+		location = 10710
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "41. Support Infantry Division"
+		location = 10710
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "42. Support Infantry Division"
+		location = 10805
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "43. Support Infantry Division"
+		location = 10805
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "44. Support Infantry Division"
+		location = 10805
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "45. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "46. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "47. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "48. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "49. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "50. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "51. Support Infantry Division"
+		location = 11333
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "52. Support Infantry Division"
+		location = 11374
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "53. Support Infantry Division"
+		location = 11374
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "54. Support Infantry Division"
+		location = 11374
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "55. Support Infantry Division"
+		location = 11374
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "56. Support Infantry Division"
+		location = 11374
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "57. Support Infantry Division"
+		location = 11374
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "58. Support Infantry Division"
+		location = 11950
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "59. Support Infantry Division"
+		location = 11950
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "60. Support Infantry Division"
+		location = 11950
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "61. Support Infantry Division"
+		location = 12259
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "62. Support Infantry Division"
+		location = 12259
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "63. Support Infantry Division"
+		location = 12259
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "64. Support Infantry Division"
+		location = 12299
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "65. Support Infantry Division"
+		location = 12299
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "66. Support Infantry Division"
+		location = 12299
+		division_template = "Support Infantry Division"
+		start_experience_factor = 0.3
+	}
+}

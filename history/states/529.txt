@@ -1,0 +1,31 @@
+state={
+	id=529
+	name= "STATE_529"
+	manpower = 1423816
+
+	resources={
+		steel = 1
+	}
+	state_category = pastoral
+
+	history={
+		owner = W24
+		victory_points = {
+			10884 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12039 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = W24
+	}
+
+	provinces={
+		1149 1174 1189 4051 4117 4176 4962 5004 7154 7194 10037 10067 10884 11940 12009 12022 12039 12082 
+	}
+}

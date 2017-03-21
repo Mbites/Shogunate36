@@ -1,0 +1,32 @@
+state={
+	id=372
+	name= "STATE_372"
+	manpower = 971392
+
+	resources={
+		oil = 35
+		steel = 8
+	}
+	state_category = pastoral
+
+	history={
+		owner = X96
+		victory_points = {
+			12832 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10797 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = X96
+	}
+
+	provinces={
+		1922 5005 7953 10797 12832 
+	}
+}

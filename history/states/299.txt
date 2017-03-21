@@ -1,0 +1,30 @@
+state={
+	id=299
+	name= "STATE_299"
+	manpower = 845048
+
+	resources={
+		oil = 0
+		steel = 1
+	}
+	state_category = large_town
+
+	history={
+		owner = X68
+		victory_points = {
+			9427 6
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 5
+		}
+		add_core_of = W00
+		add_core_of = X68
+	}
+
+	provinces={
+		9427 
+	}
+}

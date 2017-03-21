@@ -1,0 +1,33 @@
+state={
+	id=314
+	name= "STATE_314"
+	manpower = 6342104
+
+	resources={
+		aluminium = 4
+		chromium = 1
+		steel = 5
+		tungsten = 0
+	}
+	state_category = city
+
+	history={
+		owner = X69
+		victory_points = {
+			3780 4
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+		}
+		add_core_of = X57
+		add_core_of = X69
+		add_core_of = X75
+	}
+
+	provinces={
+		607 773 776 969 3776 3780 6635 6661 9584 11568 11587 
+	}
+}

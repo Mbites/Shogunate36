@@ -1,0 +1,31 @@
+state={
+	id=416
+	name= "STATE_416"
+	manpower = 984216
+
+	resources={
+		oil = 8
+	}
+	state_category = pastoral
+
+	history={
+		owner = W04
+		victory_points = {
+			6192 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			3147 = {
+				naval_base = 2
+			}
+			air_base = 0
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		105 154 198 3147 6016 6040 6177 6192 6538 9099 9121 9205 9230 10207 10723 11047 11119 11182 12530 
+	}
+}
